@@ -1,0 +1,757 @@
+@media (max-width: 1191px) {
+    .interview {
+        &__wrap {
+            display: block;
+        }
+
+        &__content {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+
+    }
+
+    .honesty {
+        .form {
+            &__button {
+                width: 100%;
+            }
+        }
+    }
+
+    .address {
+        &__wrap {
+            display: block;
+        }
+
+        &__content {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        &__box {
+            margin-bottom: 40px;
+        }
+
+        &__list {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        &__item+&__item {
+            margin-top: 0;
+        }
+
+        &__item {
+            width: 33%;
+        }
+
+        &__map {
+            width: 100%;
+        }
+
+    }
+
+    .interview,
+    .address {
+        .form {
+            width: 100%;
+            margin-top: 40px;
+            margin-left: 0;
+
+            &__text-top {
+                margin: 0 auto;
+                margin-bottom: 46px;
+            }
+
+            &__wrap {
+                display: flex;
+                justify-content: space-around;
+            }
+
+            &__input-name,
+            &__input-phone {
+                height: 72px;
+            }
+
+            &__btn-box {
+                width: 384px;
+            }
+
+        }
+    }
+}
+
+
+@media (max-width: 1167px) {
+    .header {
+        &__subtitle {
+            margin-bottom: 58px;
+        }
+    }
+
+    .menu {
+        &__item+&__item {
+            width: 75%;
+        }
+
+        &__btn {
+            margin-left: 20px;
+        }
+
+    }
+
+    .stages {
+        .info {
+            margin-bottom: 40px;
+        }
+
+        .form {
+            &__text-top {
+                margin-bottom: 40px;
+            }
+
+        }
+
+        &__wrap {
+            display: block;
+        }
+
+        &__items {
+            text-align: center;
+        }
+
+        &__item {
+            margin: 0 auto;
+        }
+
+        &__item-num {
+            padding-left: 0;
+        }
+
+        &__img {
+            margin-top: 40px;
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .honesty {
+        &__top {
+            justify-content: center;
+        }
+
+        &__wrap {
+            display: block;
+        }
+
+        &__video {
+            margin: 0 auto;
+        }
+
+        &__content {
+            width: 54%;
+            margin: 0 auto;
+        }
+
+        &__list {
+            margin-top: 35px;
+        }
+
+        &__item+&__item {
+            margin-top: 20px;
+        }
+    }
+
+    .interview {
+        &__content {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 976px) {
+    .menu {
+
+        &__item+&__item {
+            width: 61%;
+        }
+
+        &__btn {
+            border: none;
+            width: 40px;
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+
+        &__btn-text {
+            display: none;
+        }
+
+        &__btn-img {
+            display: block;
+        }
+    }
+
+    .header {
+        &__wrap {
+            padding-top: 26px;
+        }
+
+        &__items {
+            grid-template-columns: 1fr;
+        }
+
+        &__subtitle {
+            font-size: 24px;
+            margin-bottom: 98px;
+        }
+
+        &__img {
+            top: 200px;
+
+            img {
+                height: 670px;
+            }
+        }
+    }
+
+
+    .info {
+        &__text::before {
+            left: 16px;
+        }
+    }
+}
+
+@media (max-width: 839px) {
+    .stages {
+        .form {
+            &__text-top {
+                margin-bottom: 46px;
+            }
+
+            &__input:nth-child(2) {
+                margin-left: 20px;
+            }
+
+            &__button,
+            &__input-name,
+            &__input-phone {
+                width: 354px;
+            }
+        }
+
+        .info {
+            margin-bottom: 40px;
+        }
+    }
+
+
+    .honesty {
+        &__video {
+            width: 100%;
+        }
+    }
+
+
+}
+
+@media (max-width: 809px) {
+
+    .questions {
+
+        .prev,
+        .next {
+            width: 168px;
+        }
+    }
+
+    .interview,
+    .address {
+        .form {
+            &__button {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+
+}
+
+@media (max-width: 767px) {
+    .stages {
+        padding-bottom: 40px;
+
+        .form {
+
+            &__input {
+                margin-bottom: 14px;
+            }
+
+            &__input:nth-child(2) {
+                margin-left: 0;
+            }
+
+            &__btn-box {
+                margin-top: 14px;
+            }
+        }
+
+        &__img {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 736px) {
+
+    .menu {
+        &__item+&__item {
+            width: 21%;
+        }
+
+        &__phone {
+            display: none;
+        }
+
+    }
+}
+
+@media (max-width: 715px) {
+    .header {
+        padding-bottom: 50px;
+
+        &__title {
+            font-size: 39px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        &__box {
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        &__subtitle {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        &__items {
+            display: block;
+        }
+
+        &__item {
+            margin: 0 auto;
+            margin-bottom: 34px;
+        }
+
+        &__img {
+            margin: 0 auto;
+            position: initial;
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        &__btn {
+            margin: 0 auto;
+        }
+
+        &__btn-text {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .form {
+            &__btn-box {
+                display: block;
+                margin: 0 auto;
+            }
+
+            &__button {
+                width: 343px;
+                font-size: 13px;
+            }
+        }
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .conditions {
+        &__items {
+            display: block;
+            margin-top: 40px;
+        }
+
+        &__item {
+            margin: 0 auto;
+            margin-bottom: 40px;
+        }
+    }
+
+    .questions {
+
+        .prev,
+        .next {
+            width: 136px;
+        }
+    }
+
+    .steps {
+        padding-top: 50px;
+    }
+
+    .honesty {
+        &__content {
+            width: 65%;
+        }
+    }
+}
+
+@media (max-width: 645px) {
+    .honesty {
+        &__video {
+            height: 253px;
+        }
+    }
+
+    .address {
+        &__list {
+            display: block;
+        }
+
+        &__item {
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        &__item+&__item {
+            margin-top: 20px;
+        }
+    }
+}
+
+@media (max-width: 562px) {
+    .questions {
+        .prev {
+            left: 50px;
+        }
+
+        .next {
+            right: 50px;
+        }
+    }
+
+    .honesty {
+        &__video {
+            height: 221px;
+        }
+
+        &__content {
+            width: 100%;
+        }
+
+        &__text {
+            font-size: 14px;
+        }
+    }
+}
+
+@media (max-width: 510px) {
+    .menu {
+
+        &__text {
+            display: none;
+        }
+    }
+
+    .header {
+        &__title {
+            font-size: 27px;
+            margin-bottom: 12px;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+            margin-bottom: 20px;
+
+        }
+    }
+
+    .modal {
+        &__window {
+            width: 300px;
+            min-height: 407px;
+        }
+
+        .form {
+
+            &__text-top,
+            &__input-text {
+                font-size: 12px;
+                width: 225px;
+            }
+
+            &__text-top {
+                font-size: 10px;
+            }
+        }
+    }
+
+    .title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .conditions {
+        &__item-num {
+            left: 42%;
+        }
+    }
+
+    .stages {
+        &__item-text {
+            font-size: 16px;
+        }
+    }
+
+    .info {
+        &__text {
+            font-size: 16px;
+        }
+    }
+
+    .form {
+        &__text-top {
+            font-size: 14px;
+        }
+    }
+
+    .honesty {
+        &__top-text {
+            font-size: 14px;
+        }
+
+        &__video {
+            height: 194px;
+        }
+    }
+}
+
+@media (max-width: 435px) {
+    .header {
+        &__title {
+            font-size: 25px;
+        }
+
+        &__wrap {
+            padding-top: 0;
+        }
+
+        &__img {
+            max-width: 348px;
+
+            img {
+                height: 487px;
+            }
+        }
+
+        &__item {
+            display: block;
+            text-align: center;
+            margin-bottom: 44px;
+        }
+
+        &__item-img {
+            margin-bottom: 9px;
+        }
+
+        &__btn {
+            margin-top: 72px;
+            width: 100%;
+        }
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+    .info {
+        &__text {
+            font-size: 16px;
+        }
+    }
+
+    .conditions {
+        &__item-text {
+            font-size: 14px;
+        }
+
+        &__item-num {
+            left: 41%;
+        }
+    }
+
+    .stages,
+    .interview,
+    .address {
+        .form {
+            &__text-top {
+                margin-bottom: 20px;
+            }
+
+            &__btn-box,
+            &__button,
+            &__input-name,
+            &__input-phone {
+                width: 304px;
+                font-size: 14px;
+            }
+
+            &__input-name,
+            &__input-phone {
+                height: 52px;
+            }
+        }
+    }
+
+    .questions {
+        &__box-title {
+            font-size: 21px;
+        }
+
+        .prev {
+            left: 24px;
+        }
+
+        .next {
+            right: 24px;
+        }
+    }
+
+
+
+    .interview {
+        &__text {
+            font-size: 16px;
+        }
+    }
+
+    .modal {
+        .form {
+
+            &__input-name,
+            &__input-phone,
+            &__button {
+                height: 52px;
+            }
+        }
+    }
+
+    .honesty {
+        &__top-text {
+            font-size: 12px;
+        }
+    }
+
+}
+
+@media (max-width: 375px) {
+    .header{
+        &__title {
+            font-size: 23px;
+        }
+        &__subtitle{
+            font-size: 13px;
+        }
+    }
+    .conditions {
+        &__item-num {
+            left: 40%;
+        }
+    }
+
+    .questions,
+    .stages,
+    .interview,
+    .header,
+    .address {
+        .form {
+
+            &__input-name,
+            &__input-phone,
+            &__button {
+                width: 260px;
+                height: 52px;
+                font-size: 12px;
+            }
+
+            &__text-bottom {
+                font-size: 10px;
+            }
+
+        }
+    }
+
+    .questions,
+    .honesty {
+        .form {
+            &__button {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .questions {
+        &__box-title {
+            font-size: 18px;
+        }
+
+        &__box-subtitle {
+            font-size: 14px;
+        }
+
+        .prev {
+            width: 115px;
+            font-size: 13px;
+            left: 18px;
+        }
+
+        .next {
+            width: 115px;
+            font-size: 13px;
+            right: 18px;
+        }
+    }
+}
+
+@media (max-width: 335px) {
+    .title {
+        font-size: 25px;
+
+        .conditions {
+            &__item-num {
+                left: 39%;
+            }
+        }
+    }
+
+    .info {
+        &__text {
+            font-size: 12px;
+            line-height: 20px;
+        }
+    }
+}

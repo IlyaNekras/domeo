@@ -1,0 +1,64 @@
+.form {
+    display: none;
+
+    &__text-top {
+        text-align: center;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        color: #000000;
+        max-width: 488px;
+    }
+
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    &__input-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #000000;
+        margin: 0 0 4px 8px;
+    }
+
+    &__input-phone,
+    &__input-name {
+        font-weight: 400;
+        color: #BDBDBD;
+        display: block;
+        background: #FFFFFF;
+        border: 1px solid #828282;
+        border-radius: 8px;
+        width: 384px;
+        height: 72px;
+        padding: 0 24px;
+        color: #000;
+        font-size: 16px;
+        line-height: 140%;
+    }
+
+    &__button {
+        background: $main-color;
+        border: none;
+        box-shadow: 4px 12px 40px rgba(47, 128, 237, 0.35);
+        border-radius: 8px;
+        width: 384px;
+        height: 72px;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+        letter-spacing: 0.03em;
+        line-height: 140%;
+        padding: 14px 30px;
+
+        &:hover {
+            background-color: #428ef1;
+        }
+    }
+}

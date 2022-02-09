@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Muller', sans-serif;
+    box-sizing: border-box;
+}
+
+li,
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1256px;
+    padding: 0 20px;
+}
+
+@import 'libs/fonts';
+
+@import 'base/variables';
+
+
+@import 'blocks/menu';
+@import 'blocks/header';
+@import 'blocks/title';
+@import 'blocks/subtitle';
+@import 'blocks/conditions';
+@import 'blocks/info';
+@import 'blocks/stages';
+@import 'blocks/form';
+@import 'blocks/questions';
+@import 'blocks/steps';
+@import 'blocks/honesty';
+@import 'blocks/interview';
+@import 'blocks/address';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/media';

@@ -1,0 +1,152 @@
+.questions {
+    padding-bottom: 96px;
+
+    .title {
+        margin-bottom: 12px;
+    }
+
+    .subtitle {
+        margin-bottom: 40px;
+    }
+
+    &__carousel {
+        max-width: 800px;
+        margin: 0 auto;
+        height: 366px;
+    }
+
+    &__box {
+        width: 400px;
+        min-height: 366px;
+        padding: 32px 0 24px;
+        border: 1px solid $main-color;
+        border-radius: 12px;
+        text-align: center;
+        margin: 0 1px;
+    }
+
+    &__box-title {
+        margin-bottom: 12px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+    &__box-subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #4F4F4F;
+    }
+
+    &__box-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        display: block;
+
+        &__wrap {
+            margin-top: 33px;
+            justify-content: space-evenly;
+        }
+
+        &__input {
+            margin-bottom: 24px;
+        }
+        &__input-phone,
+        &__input-name{
+            height: 52px;
+            width: 304px;
+        }
+        &__btn-box{
+            width: 304px;
+        }
+        &__button {
+            width: 304px;
+            font-size: 14px;
+        }
+
+        &__text-bottom {
+            font-size: 13px;
+            margin-top: 12px;
+        }
+    }
+
+    &__form-items {
+        display: inline-block;
+        text-align: center;
+        margin-top: 33px;
+    }
+
+    &__form-item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__form-item+&__form-item {
+        margin-top: 12px;
+    }
+
+    &__form-input {
+        width: 32px;
+        height: 32px;
+        border: 2px solid #4F4F4F;
+    }
+
+
+    &__form-text {
+        display: inline-block;
+        margin-left: 12px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #000000;
+    }
+
+    &__btn {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        background-color: transparent;
+        border: none;
+    }
+
+    .next,
+    .prev {
+        position: absolute;
+        bottom: 24px;
+        border: 1px solid $main-color;
+        cursor: pointer;
+        border-radius: 8px;
+        background-color: transparent;
+        width: 174px;
+        height: 40px;
+        color: $main-color;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        padding: 9px 0;
+    }
+
+    .prev {
+        box-shadow: 4px 12px 40px rgba(47, 128, 237, 0.35);
+        left: 104px;
+        z-index: 1;
+    }
+
+    .next {
+        background-color: $main-color;
+        box-shadow: 4px 12px 40px rgba(47, 128, 237, 0.35);
+        color: #fff;
+        right: 104px;
+    }
+
+}

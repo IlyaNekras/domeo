@@ -1,0 +1,52 @@
+.menu {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    &__text {
+        color: #333;
+        font-size: 14px;
+        margin-left: 36px;
+        max-width: 260px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+
+    &__phone {
+        font-weight: 500;
+        font-size: 24px;
+        color: #333333;
+    }
+
+    &__btn {
+        position: relative;
+        border: 2px solid #2F80ED;
+        border-radius: 8px;
+        width: 280px;
+        height: 40px;
+        background-color: transparent;
+        color: $main-color;
+        margin: 10px;
+        margin-left: 32px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $main-color;
+            color: #fff;
+        }
+    }
+
+    &__btn-img {
+        display: none;
+        position: absolute;
+        top: -2px;
+        right: -2px;
+    }
+}

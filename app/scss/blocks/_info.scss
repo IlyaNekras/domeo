@@ -1,0 +1,25 @@
+.info {
+    background: #FFCF10;
+    border-radius: 12px;
+    min-height: 104px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #000000;
+
+    &__text {
+        font-size: 18px;
+        max-width: 790px;
+        margin: 0 auto;
+        padding: 28px 33px 28px 71px;
+        position: relative;
+
+        &::before {
+            content: url('../icons/info.svg');
+            top: 22px;
+            left: 0;
+            position: absolute;
+        }
+    }
+}

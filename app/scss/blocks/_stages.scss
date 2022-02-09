@@ -1,0 +1,124 @@
+.stages {
+    padding-bottom: 96px;
+
+    .title {
+        margin-bottom: 12px;
+    }
+
+    .subtitle {
+        margin-bottom: 40px;
+    }
+
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 33px;
+    }
+
+    &__item+&__item {
+        margin-top: 20px;
+    }
+
+    &__item {
+        position: relative;
+        max-width: 433px;
+    }
+
+    &__item-num {
+        position: relative;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 36px;
+        color: $main-color;
+        width: 47px;
+        margin: 0 auto;
+    }
+
+    &__left-line,
+    &__right-line {
+        width: 36px;
+        border: 1px solid $main-color;
+        position: absolute;
+        top: 12px;
+        background-color: $main-color;
+    }
+
+    &__left-line {
+        left: 58px;
+
+    }
+
+    &__right-line {
+        right: 58px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: -3px;
+            left: 32px;
+            border: 3px solid $main-color;
+            transform: rotate(45deg);
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: -3px;
+            left: 101px;
+            border: 3px solid $main-color;
+            transform: rotate(45deg);
+        }
+    }
+
+    &__item-text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 140%;
+        color: #000000;
+    }
+
+    .info {
+        margin-bottom: 96px;
+
+        &__text {
+            padding: 38px 47px 28px 71px;
+
+            &::before {
+                top: 32px;
+            }
+        }
+    }
+
+    .form {
+        display: block;
+
+        &__wrap {
+            justify-content: space-around;
+        }
+
+        &__text-top {
+            margin: 0 auto;
+            margin-bottom: 70px;
+        }
+
+        &__btn-box {
+            text-align: center;
+            margin-top: 26px;
+        }
+
+        &__text-bottom {
+            margin: 0 auto;
+            margin-top: 12px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 140%;
+            text-align: center;
+            color: #000000;
+            max-width: 303px;
+        }
+
+        &__text-link {
+            color: $main-color;
+        }
+    }
+}
